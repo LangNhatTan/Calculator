@@ -4,6 +4,8 @@
   - This calculator can compute +, -, *, /, (LCM, GCD (2 numbers)), ^x.
 + This project was built when I learn Python Advanced subject at Van Lang university.
 + Model used this libary: tkinter, math.
+
+
 **How to setting and run the code**
 1. We need to setup python environment
 2. We need to download folder calculator_tkinter
