@@ -9,5 +9,5 @@
 2. We need to download folder calculator_tkinter
 3. Open and run file calculator.py
 4. This is result.
-   ![image](https://github.com/LangNhatTan/Calculator/assets/93020907/042fac22-89f2-4f21-8dea-0381b53223aa)
+https://github.com/LangNhatTan/Calculator/assets/93020907/503c5aa8-941b-441b-bf89-09ef75e99f23
 
