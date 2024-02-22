@@ -11,10 +11,16 @@
 1. We need to setup python environment
 2. We need to download folder calculator_tkinter
 3. Open and run file calculator.py
-4. This is result.
+4. This is result Basic calculator.
 
 
 ![image](https://github.com/LangNhatTan/Calculator/assets/93020907/4d1ab45a-da29-4434-a4e0-51ad4e5351f0)
+
+
+
+5. This is Advanced calculator
+
+![image](https://github.com/LangNhatTan/Calculator/assets/93020907/9fb1ea31-faea-4968-ab5c-6e82044ff4de)
 
 
 ***Note***
