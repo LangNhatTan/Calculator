@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Calculator_Lang_Nhat_Tan</title>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+		<link rel = "icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgMj6NR_BBH250FE6wbEefkd4KJb2pQEeS0Q&usqp=CAU" type="image/x-icon">
+		<style>
+			html {
+				background-color: #2f3542;
+			}
+			.note {
+				position: absolute;
+				margin-left: 500px;
+				border-style: groove;
+				width: 600px;
+				height: 400px;
+				border-color: #84bff3;
+				background-color: #fae6fa;
+			}
+			.main {
+				border-style: groove;
+				width: 1500px;
+				background-color: #91a3b0;
+			}
+		</style>
+	</head>
+
+	<body align = "center">
+		<div class = "main">
+		<div class="row">
+			<div class="col-md-4"></div>
+			<div class="col-md-4"><legend style = "color: #84bff3;"><h1>CALCULATOR GEOMETRY</h1></legend></div>
+			<div class="col-md-4"></div>
+		</div>
+			<br>
+			<div class="row">
+			<div class="col-md-4"></div>
+			<div class="col-md-4">
+				<form class="form-horizontal" method="post">
+					<div class="form-group">
+						<label class="control-label col-xs-3" for="var_1">Number1 :</label>
+						<div class="col-xs-7">
+							<input type="number" class="form-control" name="var_1"  value="{{ request.form['var_1'] }}" placeholder="&nbsp;0&nbsp;">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="control-label col-xs-3" for="var_1">Number2 :</label>
+						<div class="col-xs-7">
+							<input type="number" class="form-control" name="var_2"  value="{{ request.form['var_2'] }}" placeholder="&nbsp;0&nbsp;">
+						</div>
+					</div>
+
+					<div class = 'form-group'>
+						<label class="control-label col-xs-3" for="var_1">Number3 :</label>
+						<div class="col-xs-7">
+							<input type="number" class="form-control" name="var_3"  value="{{ request.form['var_3'] }}" placeholder="&nbsp;0&nbsp;">
+						</div>
+					</div>
+
+
+					<div class="form-group">
+            			<label class="control-label col-xs-3">Operation:</label>
+            			<div class="col-xs-7">
+                			<select class="form-control" name="operation">
+								<option>Please choose option</option>
+								<option>Perimeter Triangle</option>
+								<option>Area Triangle</option>
+								<option>Check Triangle</option>
+								<option>Perimeter Rectangle</option>
+								<option>Area Rectangle</option>
+								<option>Perimeter Square</option>
+								<option>Area Square</option>
+								<option>Perimeter Circle</option>
+								<option>Area Circle</option>
+                			</select>
+            			</div>
+            		</div>
+					<div class="form-group">
+            			<div class="col-xs-offset-3 col-xs-9">
+                			<input type="submit" class="btn btn-success" value="Submit">
+                			<!-- <input type="reset" class="btn btn-danger" value="Reset"> -->
+            			</div>
+					</div>
+					<div class="form-group">
+						<label class="control-label col-xs-3">Result :</label>
+						<div class="col-xs-7">
+							<input type="text" name="result" class="form-control" placeholder={{ entry }}>
+						</div>
+					</div>
+        		</form>
+        	</div>
+        	<div class="col-md-4"></div></div>
+		</div>
+	</div>
+
+		<div class = "note">
+			<h3> Chú ý cách hướng dẫn sử dụng máy tính </h3>
+			<ul>
+				<li>Nếu hình được chọn chỉ có 1 tham số thì chương trình sẽ mặc định lấy số number 1</li>
+				<li>Nếu hình được chọn có 2 tham số thì chương trình sẽ mặc định lấy số number 1 và number 2</li>
+				<li>Hình tam giác sẽ có 3 tham số</li>
+				<li>Hình chữ nhật, hình vuông sẽ có 2 tham số</li>
+				<li>Hình tròn thì chỉ có 1 tham số</li>
+			</ul>
+		</div>
+	</body>
+</html>
