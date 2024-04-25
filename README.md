@@ -4,7 +4,7 @@
   - Bacis calculator can compute +, -, *, /, LCM, GCD, ^x.
   - Advanced calculator can compute display N prime number, perfect number, fibonanci number, ax + b = 0, and ax^2 + bx + c = 0.
 + This project was built when I learn Python Advanced subject at Van Lang university.
-+ Libary: tkinter, math.
++ Library: tkinter, math.
 
 
 **Setting and run the code**
